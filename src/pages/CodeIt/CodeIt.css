@@ -1,0 +1,13 @@
+.dash{
+    display: flex;
+}
+.codeit_dash{
+    height: 70vh;
+    padding: 30px 50px;
+}
+.MuiFormLabel-root{
+    font-size: 1.4rem!important;
+}
+.codeIt_page .MuiFormControl-root,.codeIt_page .MuiFormLabel-root{
+    padding-left: 50px!important; 
+}

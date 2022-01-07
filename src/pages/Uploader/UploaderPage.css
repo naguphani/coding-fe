@@ -1,0 +1,16 @@
+.dash{
+    display: flex;
+}
+.codeit_dash{
+    height: 70vh;
+    padding: 30px 50px;
+}
+.uploader_page .alert{
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}

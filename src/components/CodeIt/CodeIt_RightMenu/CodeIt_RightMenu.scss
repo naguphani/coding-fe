@@ -1,0 +1,138 @@
+.codeit_rightmenu_{
+    flex: 0.8;
+    /* border: 2px solid black; */
+    height: 100%;
+    /* overflow-y: scroll; */
+    
+}
+.MuiTypography-caption{
+    font-size: 1.4rem!important;
+}
+.MuiInputBase-input{
+    font-size: 1.1rem!important;
+}
+.codeit_rightmenu .MuiPaper-root{
+    width: -webkit-fill-available!important;
+}
+.flex{
+    display: inline-flex!important;
+    /* position: fixed; */
+}
+.codeit_rightmenu_ .MuiLinearProgress-root{
+    width: 400px!important;
+    height: 18px!important;
+    border: 3px solid grey;
+    height: 20px!important;
+    margin-bottom: 3px;
+    display: flex;
+    margin-left: 50px!important;
+}
+.codeit_rightmenu_ .selectShowCodedAs{
+    background-color: rgb(175, 235, 255);
+    color: #71a3ff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #71a3ff;
+}
+.codeit_rightmenu_ .remove_button{
+    /* background: none; */
+}
+.codeit_rightmenu .MuiTableCell-head{
+    background-color: #c6c6c6!important;
+}
+.codeit_rightmenu  td,.codeit_rightmenu   th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.codeit_rightmenu  tr:nth-child(even){background-color: #f2f2f2;}
+
+.codeit_rightmenu  tr:hover {background-color: #ddd;}
+
+.codeit_rightmenu  th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.codeit_rightmenu .MuiTableCell-body{
+    margin: auto;
+    padding: 0!important;
+}
+.selectedRow{
+    background-color: #d3e6f8!important;
+}
+.MTableToolbar-highlight-21{
+    background-color: #8dc8ff!important;
+}
+.MuiTableRow-head th span{
+    width: 100%!important;
+    display: flex!important;
+    justify-content: space-around!important;
+}
+.MuiTableCell-paddingNone{
+    text-align: -webkit-center!important;
+}
+.MuiToolbar-root .MuiFormControl-root{
+    width: 25vw!important;
+}
+.MuiCheckbox-colorSecondary.Mui-checked{
+    color: #3099fc!important;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+.spaceBetween h5{
+    margin-right: 120px;
+}
+.ReactVirtualized__Table__row{
+    // height: 50px !important;
+}
+
+[data-subtitle] {
+    font-size: 12px !important;
+    position: relative !important;
+    cursor: help !important;
+    z-index: 99999999999999999;
+
+  }
+  
+  .ReactVirtualized__Grid {
+      overflow-y: scroll !important;
+  }
+  .webkitHeight{
+    height: -webkit-fill-available !important;
+  }
+
+  .ReactVirtualized__Grid::-webkit-scrollbar {
+    width: 15px;
+    display: flex;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .codeit_rightmenu_ .MuiPaper-root{
+    overflow: hidden;
+  }
+  .codeit_rightmenu_ .ReactVirtualized__Table__row{
+    border-bottom: 1px solid rgb(201, 200, 200);
+  }
+  .codeit_rightmenu_ .ReactVirtualized__Table__headerRow{
+    border-bottom: 1px solid rgb(201, 200, 200);
+  }
+  .ReactVirtualized__Table__rowColumn .MuiTableCell-root{
+    border: none!important;
+  }

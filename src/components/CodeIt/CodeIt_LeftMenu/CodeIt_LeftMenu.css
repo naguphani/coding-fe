@@ -1,0 +1,77 @@
+.codeit_leftmenu{
+    flex: 0.3;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    z-index:11;
+    min-width: 350px;
+}
+.codeit_leftmenu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.codeit_leftmenu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.codeit_leftmenu .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.codeit_leftmenu .dropdown-content a:hover {background-color: #ddd;}
+.codeit_leftmenu .dropdown:hover .dropdown-content {display: block;}
+.codeit_leftmenu .flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.codeit_leftmenu .flex ._a{
+    padding: 0%;
+    border-top: 0;
+    border-left: 0;
+}
+.codeit_leftmenu .background-color{
+    background-color: #ebeaeb;
+}
+.codeit_leftmenu .width{
+  width: 100px;
+}
+.codeit_leftmenu form{
+  overflow: auto;
+}
+.input_box_div{
+  align-self: self-start;
+  margin-right: 5px;
+}
+.codeit_leftmenu .MuiSwitch-switchBase{
+  color: #d3e6f8;
+}
+.codeit_leftmenu .Mui-checked{
+  color: #1e90ff;
+}
+.codeit_leftmenu .code_row{
+  width: 100%;
+  padding: 10px 0;
+  padding-right: 5px;
+}
+.leftmenutop{
+  height: 3vh;
+  align-self: center;
+}
+.leftmenutop h1{
+  font-size: unset;
+  text-transform: uppercase;
+}
+.LeftMenu_EditOptions{
+  height: 4vh;
+}
